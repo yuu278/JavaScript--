@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    word-break: normal;
+    tab-size: 4;
+}
+
+table{
+    width: 400px;
+    height: 300px;
+    border: solid 1px #dcdcdca4;
+    border-right: solid 4px #dcdcdca4;
+    border-bottom: solid 4px #dcdcdca4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+    border-width: 2px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.other{
+    width: 200px;
+}
+
+#result{
+    width: 400px;
+    text-align: right;
+    background: #000000;
+    border-radius: 0%;
+    pointer-events: none;
+    color: #ffffff;
+}
+
+input:active{
+    border-color: rgb(19, 40, 234);
+    border-radius: 0%;
+}
+
